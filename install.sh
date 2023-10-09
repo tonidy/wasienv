@@ -129,8 +129,8 @@ fi
 
 wasienv_link
 
-echo "\n${green}${bold}> Installing a WebAssembly WASI Runtime${reset}"
-curl https://get.wasmer.io -sSfL | sh
+# echo "\n${green}${bold}> Installing a WebAssembly WASI Runtime${reset}"
+# curl https://get.wasmer.io -sSfL | sh
 
 echo "\n${green}${bold}> Installing the required WASI SDKs${reset}"
 # unstable is the most stable version of the WASI sdk for now
