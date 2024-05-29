@@ -3,7 +3,7 @@
     <img width="240" src="https://raw.githubusercontent.com/wasienv/wasienv/master/logo.png" alt="Wasmer logo">
   </a>
   
-  <p>
+  <!-- <p>
     <a href="https://github.com/wasienv/wasienv/actions?workflow=CI">
       <img src="https://github.com/wasienv/wasienv/workflows/CI/badge.svg?style=flat-square" alt="Tests">
     </a>
@@ -13,7 +13,7 @@
     <a href="https://github.com/wasmerio/wasmer/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/wasienv/wasienv.svg?style=flat-square" alt="License">
     </a>
-  </p>
+  </p> -->
 
   <h3>
     <a href="https://docs.wasmer.io/ecosystem/wasienv">Wasienv Docs</a>
@@ -41,7 +41,7 @@ So you can run them anywhere (with any [Standalone WASI WebAssembly runtime](htt
 You can install `wasienv` with:
 
 ```sh
-curl https://raw.githubusercontent.com/wasienv/wasienv/master/install.sh | sh
+curl https://raw.githubusercontent.com/tonidy/wasienv/master/install.sh | sh
 ```
 
 > Note: we also ship `wasienv` in a Docker image. You can check [how to use the Wasienv Docker image here](https://github.com/wasienv/wasienv/blob/master/docker/).
