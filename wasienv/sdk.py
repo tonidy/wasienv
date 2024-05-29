@@ -77,11 +77,18 @@ SDKS = {
         },
         "sysroot": "wasi-sdk-16.0"
     },
+     "22": {
+        "download_urls": {
+            "darwin": 'https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-16/wasi-sdk-22.0-macos.tar.gz',
+            "linux": 'https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-16/wasi-sdk-22.0-linux.tar.gz',
+        },
+        "sysroot": "wasi-sdk-22.0"
+    },
 }
 
 SDK_TAGS = {
-    "latest": "16",
-    "unstable": "16"
+    "latest": "22",
+    "unstable": "22"
 }
 
 SWIFTWASM = {
